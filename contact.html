@@ -173,19 +173,19 @@
 	<div class="popup popup-overlay">
 	    <button id="close-popup" class="popup__btn-close" aria-label="Close">close</button>
 	    <div class="popup-inner">
-		    <form id="contact-form" data-toggle="validator">
+		    <form id="contact-form" data-toggle="validator" netlify>
 			    <div class="container container_md">
 			        <div class="row">
 				        <div class="col-md-6">
                             <div class="form-group">
 						        <label for="firstName" class="label">First Name *</label>
-                                <input type="text" class="form-control input" id="firstName" required data-error="Please, enter your first name." autocomplete="off">
+                                <input type="text" class="form-control input" name="firstName" id="firstName" required data-error="Please, enter your first name." autocomplete="off">
 						    </div>
 				        </div>
 				        <div class="col-md-6">
                             <div class="form-group">
 						        <label for="lastName" class="label">Last Name *</label>
-                                <input type="text" class="form-control input" id="lastName" required data-error="Please, enter your last name." autocomplete="off">
+                                <input type="text" class="form-control input" name="lastName" id="lastName" required data-error="Please, enter your last name." autocomplete="off">
 						    </div>
 				        </div>
 			        </div>
@@ -193,13 +193,13 @@
 				        <div class="col-md-6">
                             <div class="form-group">
 						        <label for="email" class="label">Email *</label>
-                                <input type="email" class="form-control input" id="email" required data-error="Please, enter your email." autocomplete="off">
+                                <input type="email" class="form-control input" name="email" id="email" required data-error="Please, enter your email." autocomplete="off">
 						    </div>
 				        </div>
 				        <div class="col-md-6">
                             <div class="form-group">
 						        <label for="phone" class="label">Phone *</label>
-                                <input type="tel" class="form-control input" id="phone" required data-error="Please, enter your phone." autocomplete="off">
+                                <input type="tel" class="form-control input" name="phone" id="phone" required data-error="Please, enter your phone." autocomplete="off">
 						    </div>
 				        </div>
 			        </div>
@@ -207,7 +207,7 @@
 				        <div class="col-md-12">
 					        <div class="form-group">
 						        <label for="message" class="label">Your Message ... *</label>
-						        <textarea class="form-control input" id="message" rows="3" required data-error="Please, enter message."></textarea>
+						        <textarea class="form-control input" name="message" id="message" rows="3" required data-error="Please, enter message."></textarea>
 						    </div>
 					        <div class="btn-block text-center">
 							    <button type="submit" class="btn">Send Message</button>
