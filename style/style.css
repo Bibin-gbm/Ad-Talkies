@@ -147,15 +147,15 @@ textarea.form-control {
 }
 
 .has-error .form-control {
-  border-color: #006799;
+  border-color: #2b42a8;
   box-shadow: none;
 }
 .has-error .form-control:focus {
-  border-color: #006799;
+  border-color: #2b42a8;
   box-shadow: none;
 }
 .has-error .subscribe-form__inner .btn-subscribe {
-  border-left: 1px solid #006799;
+  border-left: 1px solid #2b42a8;
 }
 
 .validation-success,
@@ -267,7 +267,7 @@ input:-webkit-autofill:active {
   transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
 }
 .btn::before {
-  background-color: #006799;
+  background-color: #2b42a8;
   width: 60%;
 }
 .btn::after {
@@ -529,7 +529,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .title_decoration::after {
-  background-color: #006799;
+  background-color: #2b42a8;
   bottom: 0;
   content: '';
   height: 40%;
@@ -771,12 +771,12 @@ img {
 }
 
 ::-moz-selection {
-  background: #006799;
+  background: #2b42a8;
   color: #fff;
 }
 
 ::selection {
-  background: #006799;
+  background: #2b42a8;
   color: #fff;
 }
 
@@ -865,7 +865,7 @@ img {
   }
 }
 .top.affix {
-  padding: 20px 25px;
+  padding: 10px 25px;
   position: fixed;
   z-index: 1003;
   background-color: #1a1a1a;
@@ -884,7 +884,7 @@ img {
   float: left;
 }
 .top .navbar-left .logotype {
-  height: 47px;
+  height: 65px;
 }
 @media screen and (max-width: 580px) {
   .top .navbar-left .logotype {
@@ -921,7 +921,7 @@ img {
 }
 .top li a::before {
   content: '';
-  background-color: #006799;
+  background-color: #2b42a8;
   height: 100%;
   position: absolute;
   top: 0;
@@ -1138,7 +1138,7 @@ img {
     display: none;
   }
   .top .navbar-nav li a:hover {
-    background-color: #006799;
+    background-color: #2b42a8;
   }
   .top .navbar-nav .dropdown .dropdown-menu {
     background-color: transparent;
@@ -1163,7 +1163,7 @@ img {
     padding: 15px 8px 13px;
   }
   .top .navbar-nav .dropdown .dropdown-menu a:hover {
-    background-color: #006799;
+    background-color: #2b42a8;
   }
   .menu__open .top {
     padding-bottom: 0;
@@ -1256,7 +1256,7 @@ img {
   text-decoration: none;
 }
 .dl-menu__wrap ul li a::after {
-  background-color: #006799;
+  background-color: #2b42a8;
   content: '';
   height: 100%;
   margin: auto;
@@ -2403,7 +2403,7 @@ text-decoration: none;
   z-index: 2;
 }
 .client-carousel-item .item__block-number::after {
-  background-color: #006799;
+  background-color: #2b42a8;
   content: '';
   height: 28%;
   position: absolute;
@@ -2495,7 +2495,7 @@ text-decoration: none;
   text-shadow: 0 8px 30px rgba(17, 17, 17, 0.3);
 }
 .photo-carousel__item .item__block-description .title::after {
-  background-color: #006799;
+  background-color: #2b42a8;
   content: '';
   height: 40%;
   position: absolute;
@@ -2653,7 +2653,7 @@ text-decoration: none;
   z-index: -1;
 }
 .pricing-grid__item::after {
-  background-color: #006799;
+  background-color: #2b42a8;
   content: '';
   height: 100%;
   opacity: .8;
@@ -3471,7 +3471,7 @@ text-decoration: none;
   }
 }
 .news-singel .item-news .share-post a:hover {
-  color: #006799;
+  color: #2b42a8;
 }
 
 /* Nav */
@@ -3612,11 +3612,11 @@ text-decoration: none;
   opacity: 1;
 }
 .filter-categories__item_current a {
-  color: #006799;
+  color: #2b42a8;
   opacity: 1;
 }
 .filter-categories__item_current a::before {
-  background-color: #006799;
+  background-color: #2b42a8;
   content: '';
   height: 1px;
   margin: auto 0;
@@ -3699,7 +3699,7 @@ text-decoration: none;
   text-decoration: none;
 }
 .section-comments .media .media-header a:hover {
-  color: #006799;
+  color: #2b42a8;
 }
 .section-comments .media .media-body {
   font-weight: 300;
@@ -3930,7 +3930,7 @@ text-decoration: none;
 }
 .show-popup .popup.popup-overlay::after, .show-overlay-nav .popup.popup__menu::after {
   content: '';
-  background-color: #006799;
+  background-color: #2b42a8;
   position: absolute;
   top: 0;
   left: 0;
@@ -4191,8 +4191,8 @@ img.zoom-img {
   transition: all 0.6s 0s cubic-bezier(0.7, 0, 0.3, 1);
 }
 .video-controls [data-media="play-pause"]:hover {
-  background-color: #006799;
-  box-shadow: 0 0 0 10px #006799;
+  background-color: #2b42a8;
+  box-shadow: 0 0 0 10px #2b42a8;
 }
 
 [data-media] {
@@ -4335,7 +4335,7 @@ img.zoom-img {
 .reveal.animated::after,
 .swiper-slide-active .item__block-image::after {
   content: '';
-  background: #006799;
+  background: #2b42a8;
   position: absolute;
   top: 0;
   left: 0;
